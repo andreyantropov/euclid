@@ -1,0 +1,438 @@
+@media (max-width: 1366px) {
+  .section-offset {
+    margin-bottom: 80px;
+  }
+
+  .header {
+    margin-bottom: 40px;
+  }
+
+  .header__wrap {
+    padding: 24.5px 0;
+  }
+
+  .header__brand {
+    width: 150px;
+  }
+
+  .nav {
+    margin-right: 105px;
+  }
+
+  .nav__list {
+    gap: 60px;
+  }
+
+  .hero {
+    margin-bottom: 37px;
+  }
+
+  .hero__wrap {
+    padding: 160px 80px 160px 78px;
+  }
+
+  .hero__title {
+    margin-bottom: 14px;
+    font-size: 60px;
+  }
+
+  .hero__desc {
+    margin-bottom: 60px;
+    font-size: 20px;
+  }
+
+  .hero__btn {
+    padding: 24px 34px;
+    font-size: 24px;
+  }
+
+  .about__desc {
+    margin-bottom: 60px;
+  }
+
+  .about__grid {
+    flex-direction: column;
+  }
+
+  .about__col {
+    width: 100%;
+  }
+
+  .about__topic {
+    min-height: 640px;
+  }
+
+  .about-topic__content {
+    padding: 52px 51px 49px 50px;
+  }
+
+  .about-topic__link {
+    padding: 18px 35px;
+  }
+
+  .about-card {
+    padding: 66px 135px 65px 316px;
+    background-position: 10.3% center;
+  }
+
+  .stages__title {
+    margin-bottom: 35px;
+  }
+
+  .stages-card__content {
+    max-width: 440px;
+  }
+
+  .stages-card__desc-block {
+    margin-bottom: 25px;
+  }
+
+  .questions__list {
+    --offsets: 0;
+  }
+
+  .footer__col_text {
+    display: none;
+  }
+
+  .footer__col_request {
+    max-width: 541px;
+    transform: none;
+  }
+
+  .form__btn {
+    padding: 19px 36.5px;
+  }
+}
+
+@media (max-width: 992px) {
+  :root {
+    --border-radius: 24px;
+  }
+
+  .header__wrap {
+    padding: 15px 0;
+  }
+
+  .header__brand {
+    width: 110px;
+  }
+
+  .nav {
+    margin-right: 43px;
+  }
+
+  .nav__list {
+    gap: 41px;
+  }
+
+  .nav__link {
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .hero__wrap {
+    padding: 160px 40px 160px 40px;
+  }
+
+  .hero__title {
+    font-size: 50px;
+  }
+
+  .hero__desc {
+    font-size: 18px;
+  }
+
+  .hero__btn {
+    padding: 25px 34px;
+    font-size: 24px;
+  }
+
+  .about__desc {
+    margin-bottom: 55px;
+  }
+
+  .about__topic {
+    min-height: 650px;
+  }
+
+  .about-topic__content {
+    padding: 34px 40px;
+  }
+
+  .about-topic__desc {
+    max-width: 366px;
+  }
+
+  .about-card {
+    padding: 35px 40px 35px 25%;
+    min-height: 235px;
+    background-position: 6.7% center;
+    background-size: 17.5%;
+  }
+
+  .stages-card {
+   flex-direction: column-reverse;
+  }
+
+  .stages-card__content {
+    max-width: unset;
+  }
+
+  .stages-card__desc {
+    display: inline;
+  }
+
+  .stages-card__pic {
+    margin-bottom: 36px;
+    width: 100%;
+  }
+
+  .questions-card {
+    padding: 36px 55px 34px 39px;
+    border-radius: 32px;
+  }
+
+  .footer__wrap {
+    flex-direction: column-reverse;
+  }
+
+  .footer__nav {
+    display: none;
+  }
+
+  .footer__col_request {
+    margin-bottom: 52px;
+  }
+
+  .footer__brand {
+    margin-bottom: 14px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    padding: 0 15px;
+  }
+
+  .header__nav {
+    margin-right: 20px;
+  }
+
+  .nav__list {
+    gap: 25px;
+  }
+
+  .footer__wrap {
+    align-items: center;
+  }
+
+  .footer__col_nav {
+    align-items: center;
+    max-width: none;
+    width: 100%;
+  }
+
+  .footer__brand {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  :root {
+    --border-radius: 16px;
+  }
+
+  .btn {
+    border-radius: 8px;
+    font-size: 12px;
+  }
+
+  .section-title {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+
+  .subtitle {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .paragraph {
+    font-size: 14px;
+  }
+
+  .section-offset {
+    margin-bottom: 60px;
+  }
+
+  .header {
+    margin-bottom: 20px;
+  }
+
+  .header__wrap {
+    flex-wrap: wrap;
+    padding: 15px 0 35px;
+  }
+
+  .header__nav {
+    display: flex;
+    justify-content: center;
+    order: 1;
+    margin: 0;
+    padding-top: 12px;
+    width: calc(100% + 15px);
+  }
+
+  .nav__list {
+    gap: 25px;
+    overflow: auto;
+  }
+
+  .hero__wrap {
+    padding: 59px 22px;
+    text-align: center;
+  }
+
+  .hero__title {
+    margin-bottom: 7px;
+    font-size: 20px;
+  }
+
+  .hero__desc {
+    margin-bottom: 33px;
+    font-size: 12px;
+  }
+
+  .hero__btn {
+    padding: 13px 27px;
+    font-size: 12px;
+  }
+
+  .hero {
+    margin-bottom: 60px;
+  }
+
+  .about__desc {
+    margin-bottom: 14px;
+  }
+
+  .about-topic {
+    min-height: unset;
+    background: transparent;
+  }
+
+  .about-topic::before {
+    content: "";
+    display: block;
+    margin-bottom: 7px;
+    border-radius: 24px;
+    width: 100%;
+    aspect-ratio: 290/200;
+    background: #000 center / cover url('../img/about-topic-decoration.jpg');
+  }
+
+  .about-topic__content {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    background: transparent;
+  }
+
+  .about-topic__desc {
+    margin-bottom: 12px;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--dark-color);
+  }
+
+  .about-topic__link {
+    --border: 2px;
+    padding: 11px 42px;
+    border: var(--border) solid currentColor;
+    color: var(--primary-color);
+  }
+
+  .about-card {
+    padding: 0;
+    padding-top: 62px;
+    border: none;
+    background-size: 64px 64px;
+    background-position: left top;
+  }
+
+  .about-card__title {
+    margin-bottom: 7px;
+  }
+
+  .stages-card__pic {
+    margin-bottom: 20px;
+  }
+
+  .stages-card__title {
+    margin-bottom: 12px;
+  }
+
+  .stages-card__btn-container {
+    gap: 9px;
+  }
+
+  .stages-card__btn_more {
+    padding: 12px 44px;
+  }
+
+  .stages-card__btn_contract {
+    padding: 12px 31px;
+  }
+
+  .questions-card {
+    padding: 0;
+    border: none;
+  }
+
+  .questions-card__title {
+    margin-bottom: 7px;
+  }
+
+  .footer__wrap {
+    padding: 30px 0;
+  }
+
+  .footer__title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .form__submit-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form__btn {
+    padding: 12px 19px;
+  }
+
+  .footer__col_request {
+    margin-bottom: 15px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid var(--input-color);
+  }
+
+  .input__control {
+    padding: 22px 20px;
+    font-size: 14px;
+  }
+
+  .footer__brand {
+    width: 131px;
+  }
+
+  .footer__social {
+    gap: 20px;
+  }
+
+  .icon-social {
+    width: 40px;
+    height: 40px;
+  }
+}

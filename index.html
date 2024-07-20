@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Евклид</title>
+  <link rel="icon" type="image/x-icon" href="favicon.svg">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__container container">
+      <div class="header__wrap">
+        <a class="header__brand brand" href="#">
+          <img src="img/brand-dark.svg" alt="Логотип Евклид">
+        </a>
+
+        <nav class="header__nav nav">
+          <ul class="nav__list list-reset">
+            <li class="nav__item">
+              <a class="nav__link" href="#about">О&nbsp;нас</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#stages">Этапы</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#questions">Вопросы</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#request">Оставить&nbsp;заявку</a>
+            </li>
+          </ul>
+        </nav>
+
+        <button class="header__search btn-reset" aria-label="Поиск">
+          <svg class="icon icon-search" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <rect class="icon-search__circle" width="7.56126" height="1.89031" transform="matrix(0.713342 0.700816 -0.713342 0.700816 18.6064 17.3762)"/>
+            <path class="icon-search__line" d="M20.9303 10.7726C20.9303 16.1533 16.4855 20.5452 10.9652 20.5452C5.44478 20.5452 1 16.1533 1 10.7726C1 5.39198 5.44478 1 10.9652 1C16.4855 1 20.9303 5.39198 20.9303 10.7726Z"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero__container container">
+        <div class="hero__wrap hero-decoration-image">
+          <h1 class="hero__title" tabindex="0">Проектные решения любой сложности</h1>
+          <p class="hero__desc">
+            Есть над чем задуматься: базовые сценарии поведения пользователей и&nbsp;по&nbsp;сей день остаются уделом проектантов
+          </p>
+          <button class="hero__btn btn-reset btn btn-primary">Заказать расчёт</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="about section-offset" id="about">
+      <div class="about__container container">
+        <h2 class="about__title section-title">О&nbsp;нас</h2>
+        <p class="about__desc paragraph">
+          Также как перспективное планирование создаёт необходимость включения в&nbsp;производственный план целого ряда
+          внеочередных мероприятий с&nbsp;учётом комплекса экспериментов, поражающих по&nbsp;своей масштабности
+          и&nbsp;грандиозности.
+          А&nbsp;также диаграммы связей могут быть описаны максимально подробно. Мы&nbsp;вынуждены
+          отталкиваться от&nbsp;того, что убеждённость некоторых оппонентов требует от&nbsp;нас анализа как&nbsp;самодостаточных,
+          так и&nbsp;внешне зависимых концептуальных решений! Следует отметить, что высококачественный прототип будущего
+          проекта предопределяет высокую востребованность позиций, занимаемых участниками в&nbsp;отношении поставленных задач.
+          Мы&nbsp;вынуждены отталкиваться от&nbsp;того, что высококачественный прототип будущего проекта способствует
+          повышению качества экспериментов.
+        </p>
+
+        <div class="about__grid">
+          <div class="about__col about__col_left">
+            <div class="about__topic about-topic about-topic-decoration-image">
+              <div class="about-topic__content">
+                <p class="about-topic__desc paragraph">
+                  Принимая во&nbsp;внимание показатели успешности, перспективное планирование способствует подготовке
+                  и&nbsp;реализации новых принципов
+                </p>
+                <a class="about-topic__link btn btn-primary" href="#">Подробнее</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="about__col about__col_right">
+            <article class="about__card about-card about-card-decoration-image-1">
+              <h3 class="about-card__title subtitle">Консультация с&nbsp;широким активом</h3>
+              <p class="about-card__desc paragraph">
+                А&nbsp;также свежий взгляд на&nbsp;привычные вещи&nbsp;&mdash; безусловно открывает новые горизонты
+                для&nbsp;как&nbsp;самодостаточных, так и&nbsp;внешне зависимых концептуальных решений
+              </p>
+            </article>
+            <article class="about__card about-card about-card-decoration-image-2">
+              <h3 class="about-card__title subtitle">В&nbsp;своём стремлении повысить</h3>
+              <p class="about-card__desc paragraph">
+                Качество жизни, они забывают, что сплочённость команды профессионалов представляет собой интересный
+                эксперимент проверки прогресса профессионального сообщества
+              </p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stages section-offset" id="stages">
+      <div class="stages__container container">
+        <h2 class="stages__title section-title">Этапы</h2>
+        <div class="stages__card stages-card">
+          <div class="stages-card__content">
+            <h3 class="stages-card__title subtitle">Проводим консультацию</h3>
+            <div class="stages-card__desc-block">
+              <p class="stages-card__desc paragraph">
+                Влечёт за&nbsp;собой процесс внедрения и&nbsp;модернизации приоритизации разума над&nbsp;эмоциями. В&nbsp;рамках
+                спецификации современных стандартов, некоторые особенности внутренней политики будут объективно рассмотрены
+                соответствующими инстанциями.
+              </p>
+              <p class="stages-card__desc paragraph">
+                А&nbsp;также представители современных социальных резервов, инициированные исключительно синтетически,
+                ограничены исключительно образом мышления. Являясь всего лишь частью общей картины, реплицированные
+                с&nbsp;зарубежных источников, современные исследования подвергнуты целой серии независимых исследований.
+                Кстати, стремящиеся вытеснить традиционное производство, нанотехнологии освещают чрезвычайно интересные
+                особенности картины в&nbsp;целом, однако конкретные выводы, разумеется, призваны к&nbsp;ответу.
+              </p>
+            </div>
+            <div class="stages-card__btn-container">
+              <a class="stages-card__btn stages-card__btn_more btn-reset btn btn-primary" href="#">Подробнее</a>
+              <button class="stages-card__btn stages-card__btn_contract btn-reset btn btn-secondary">Договор</button>
+            </div>
+          </div>
+          <picture class="stages-card__pic">
+            <source srcset="img/stages-xs.jpg" media="(max-width: 576px)">
+            <source srcset="img/stages-sm.jpg" media="(max-width: 992px)">
+            <source srcset="img/stages-md.jpg" media="(max-width: 1366px)">
+            <img class="stages-card__img" src="img/stages.jpg" alt="" aria-hidden="true">
+          </picture>
+        </div>
+      </div>
+    </section>
+
+    <section class="questions section-offset" id="questions">
+      <div class="questions__container container">
+        <h2 class="questions__title section-title">Вопросы</h2>
+        <ul class="questions__list list-reset">
+          <li class="questions__item questions-card">
+            <h3 class="questions-card__title subtitle" tabindex="0">Из&nbsp;чего формируется конечная&nbsp;стоимость проекта?</h3>
+            <p class="questions-card__desc paragraph" tabindex="0">
+              Приятно, граждане, наблюдать, как некоторые особенности внутренней политики могут быть призваны к&nbsp;ответу.
+            </p>
+          </li>
+
+          <li class="questions__item questions-card">
+            <h3 class="questions-card__title subtitle" tabindex="0">У&nbsp;меня есть свой проект. Можно&nbsp;ли его&nbsp;реализовать?</h3>
+            <p class="questions-card__desc paragraph" tabindex="0">
+              А&nbsp;ещё некоторые особенности внутренней политики, которые представляют собой яркий пример континентального типа.
+            </p>
+          </li>
+
+          <li class="questions__item questions-card">
+            <h3 class="questions-card__title subtitle" tabindex="0">Я&nbsp;выбираю между разными компаниями. Почему&nbsp;вы?</h3>
+            <p class="questions-card__desc paragraph" tabindex="0">
+              Явные признаки победы институционализации набирают популярность среди определённых слоёв населения.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__container container">
+      <div class="footer__wrap">
+        <div class="footer__col footer__col_nav">
+          <a class="footer__brand brand logo-decoraion-dark-image" href="#">
+            <img src="img/brand-light.svg" alt="Логотип Евклид">
+          </a>
+
+          <nav class="footer__nav nav">
+            <ul class="nav__list list-reset">
+              <li class="nav__item">
+                <a class="nav__link" href="#about">О нас</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#">Проекты</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#">Отзывы</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#">Договор оферты</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#">Договор подряда</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#">Конфиденциальность</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#">Партнёрское соглашение</a>
+              </li>
+            </ul>
+          </nav>
+
+          <address class="footer__social social">
+            <a class="social__link social__link_ok" href="#" aria-label="Мы в Одноклассниках">
+              <svg class="icon icon-social" viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10.7106 8.32552C10.7106 9.35607 11.546 10.1916 12.5766 10.1916C13.6071 10.1916 14.4426 9.35607 14.4426 8.32552C14.4426 7.29496 13.6071 6.4595 12.5766 6.4595C11.546 6.4595 10.7106 7.29496 10.7106 8.32552Z"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 25C19.4036 25 25 19.4036 25 12.5C25 5.59644 19.4036 0 12.5 0C5.59644 0 0 5.59644 0 12.5C0 19.4036 5.59644 25 12.5 25ZM8.06251 8.32546C8.06251 5.83243 10.0835 3.81137 12.5766 3.81137C15.0697 3.81137 17.0907 5.83243 17.0907 8.32546C17.0907 10.8185 15.0697 12.8397 12.5766 12.8397C10.0835 12.8397 8.06251 10.8185 8.06251 8.32546ZM17.1176 15.1617C17.0604 15.2076 15.9774 16.0634 14.1702 16.4316L16.8981 19.1351C17.3778 19.6141 17.3784 20.3912 16.8994 20.8709C16.4205 21.3506 15.6435 21.3514 15.1636 20.8723L12.5153 18.2933L10.1099 20.8557C9.86912 21.1055 9.54789 21.2311 9.22631 21.2311C8.91959 21.2311 8.61261 21.117 8.37443 20.8873C7.88644 20.4168 7.8723 19.6398 8.34283 19.1518L10.932 16.4459C9.07424 16.0864 7.94659 15.2083 7.88852 15.1617C7.3597 14.7376 7.27476 13.9651 7.69885 13.4362C8.12288 12.9074 8.8953 12.8225 9.42424 13.2465C9.4354 13.2556 10.6149 14.1416 12.5153 14.1429C14.4157 14.1416 15.5707 13.2556 15.5819 13.2465C16.1109 12.8225 16.8833 12.9074 17.3073 13.4362C17.7314 13.9651 17.6464 14.7376 17.1176 15.1617Z"/>
+              </svg>
+            </a>
+            <a class="social__link social__link_vk" href="#" aria-label="Мы во ВКонтакте">
+              <svg class="icon icon-social" viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_370726_103)">
+                  <path d="M12.5 0C5.59815 0 0 5.59815 0 12.5C0 19.4018 5.59815 25 12.5 25C19.4018 25 25 19.4018 25 12.5C25 5.59815 19.4018 0 12.5 0ZM18.8394 13.8548C19.4274 14.4172 20.0409 14.954 20.5521 15.593C20.7822 15.8742 21.0122 16.1554 21.1656 16.4877C21.3957 16.9478 21.1912 17.4591 20.7822 17.4846H18.226C17.5613 17.5358 17.0501 17.2801 16.59 16.82C16.2321 16.4622 15.8998 16.0787 15.5675 15.6953C15.4397 15.5419 15.2863 15.3885 15.1073 15.2863C14.7495 15.0562 14.4427 15.1329 14.2638 15.4908C14.0593 15.8742 14.0082 16.2832 13.9826 16.6922C13.957 17.3057 13.7781 17.4591 13.1646 17.4846C11.8609 17.5358 10.6339 17.3568 9.50919 16.6922C8.51226 16.1043 7.71983 15.3118 7.05521 14.3916C5.72597 12.6022 4.72903 10.6339 3.80879 8.61451C3.60429 8.15439 3.75767 7.92433 4.26891 7.89876C5.11247 7.8732 5.93046 7.8732 6.77402 7.89876C7.10633 7.89876 7.33639 8.10326 7.46421 8.41001C7.92433 9.50919 8.46114 10.5828 9.15132 11.5542C9.33026 11.8098 9.53475 12.0654 9.79038 12.2699C10.0971 12.4744 10.3016 12.3977 10.455 12.0654C10.5317 11.8609 10.5828 11.6309 10.6084 11.4008C10.6851 10.6339 10.6851 9.86707 10.5572 9.10019C10.4806 8.58895 10.2249 8.2822 9.73925 8.17995C9.48363 8.12883 9.53476 8.05214 9.637 7.89876C9.8415 7.6687 10.046 7.51533 10.4294 7.51533H13.318C13.7781 7.61758 13.8804 7.79652 13.9315 8.25664V11.4775C13.9315 11.6564 14.0082 12.1932 14.3405 12.2955C14.5961 12.3722 14.775 12.1677 14.9284 12.0143C15.6186 11.273 16.1043 10.4039 16.5644 9.50919C16.7689 9.10019 16.9223 8.6912 17.1012 8.2822C17.229 7.97545 17.408 7.82208 17.7658 7.82208H20.5521C20.6288 7.82208 20.7055 7.82208 20.8078 7.84764C21.2679 7.92433 21.3957 8.12883 21.2679 8.58895C21.0378 9.30469 20.6033 9.91819 20.1687 10.5061C19.7086 11.1452 19.1973 11.7587 18.7372 12.4233C18.2771 13.0368 18.3026 13.3435 18.8394 13.8548Z"/>
+                </g>
+                <defs>
+                  <clipPath id="clip0_370726_103">
+                  <rect width="25" height="25"/>
+                  </clipPath>
+                </defs>
+              </svg>
+            </a>
+          </address>
+        </div>
+
+        <div class="footer__col footer__col_request" id="request">
+          <h2 class="footer__title">Оставить заявку</h2>
+          <form class="footer__form form" action="https://jsonplaceholder.typicode.com/posts" method="post">
+            <div class="form__input input">
+              <label class="input__label hidden" for="name">Введите имя:</label>
+              <input class="input__control" type="text" name="name" id="name" placeholder="Фамилия, имя и отчество*" required>
+            </div>
+            <div class="form__input input">
+              <label class="input__label hidden" for="email">Введите email:</label>
+              <input class="input__control" type="email" name="email" id="email" placeholder="Email*" required>
+            </div>
+            <div class="form__input input form__input">
+              <label class="input__label hidden" for="message">Введите сообщение:</label>
+              <textarea class="input__control input__control_textarea" name="message" id="message" cols="30" rows="6" placeholder="Сообщение"></textarea>
+            </div>
+            <div class="form__submit-container">
+              <button class="form__btn btn-reset btn btn-primary" type="submit">Отправить данные</button>
+              <div class="form__input form__input_checkbox input">
+                <label class="input__label input__label_checkbox" for="processing">
+                  <input class="input__control input__control_checkbox hidden" type="checkbox" name="processing" id="processing" value="processing" checked>
+                  <span class="custom-checkbox">Согласен на&nbsp;обработку данных</span>
+                </label>
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <div class="footer__col footer__col_text">
+          <p class="footer__text paragraph">
+            Высокий уровень вовлечения представителей целевой аудитории является чётким доказательством простого факта:
+            разбавленное изрядной долей эмпатии, рациональное мышление позволяет оценить значение модели развития. Таким образом,
+            консультация с&nbsp;широким активом обеспечивает широкому кругу (специалистов) участие в&nbsp;формировании
+            стандартных подходов.
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
